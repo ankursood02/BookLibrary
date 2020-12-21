@@ -1,14 +1,17 @@
 package com.casestudy.bookservice.entity;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 
 @Entity
+@Table(name="BOOKS")
 public class Book {
 	
 	@Id
-	String bookId;
+	String bookId;	
 	String bookName;
 	String author;
 	int availableCopies;

@@ -1,12 +1,9 @@
 package com.casestudy.subscription.model;
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
 
-@Enti
 public class Book {
 	
-	@Id
+	
 	String bookId;
 	String bookName;
 	String author;
